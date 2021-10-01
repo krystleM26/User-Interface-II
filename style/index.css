@@ -68,11 +68,16 @@ nav .name{
     display: flex;
     flex-direction: row;
     font-size: 75px;
+    margin: 12%;
    
 }
+
 a {
-    border: 2px solid gray;
-    
+    border: 3px solid gray;   
+}
+
+h2 {
+    font-weight: bold;
 }
 
 
@@ -86,11 +91,7 @@ a {
     margin-right: 5%;
     padding: 22px;
     align-items: center;
-    font-size: 1.5rem;
-    
-   
-   
-    
+    font-size: 1.5rem;   
 }
 
 
@@ -139,6 +140,7 @@ h3 {
     /* margin: 1%; */
     text-align: center;
     margin-bottom: 1.5%;
+    
 }
 button{
     /* margin-left: 39%; */

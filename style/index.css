@@ -49,17 +49,23 @@ table {
     border:3px solid black; 
     
 }
+title {
+    border: gray;
+    margin: auto;
+    color:black;
+}
 
 
 body {
     background-color: azure;
     font-family: Mulish;
     line-height: 2rem;
+    color: rgb(47,79,79)
   
     
 }
 section {
-    border:1px solid black;
+    border:1px solid rgb(107, 170, 170);
     background-color: whitesmoke; 
 }
 
@@ -73,7 +79,7 @@ nav .name{
 }
 
 a {
-    border: 3px solid gray;   
+    border: 3px solid rgb(107, 170, 170);   
 }
 
 h2 {
@@ -115,18 +121,27 @@ padding: 5%;
 
 /* Projects*/
 
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
 .boxes  {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box {
     
-    width: 300px;
-    border: 15px solid green;
+    width: 200px;
+    border: 15px solid rgb(107, 170, 170);
     padding: 50px;
-    margin: 20px;
+    margin: 50px;
 }
 
 /* Footer*/
@@ -140,19 +155,19 @@ h3 {
     /* margin: 1%; */
     text-align: center;
     margin-bottom: 1.5%;
+    font-weight: bolder;
     
 }
-button{
+a.button{
     /* margin-left: 39%; */
-    padding: 3% 5%;
-    /* margin-top:5%; */
+    padding: 2% 6%;
+     margin-bottom: 3%; 
     color:#fff;
-    background-color:#266035;
-    border:2px solid #266035;
+    background-color:rgb(107, 170, 170);
     font-size:1.6rem;
-    /* transition:2s; */
+     transition: 2s; 
 }
-button:hover{
-    color:#266035;
-    background-color:#fff;
+ .button:hover{
+    color: rgb(47,79,79);
+    background-color: whitesmoke;
 }

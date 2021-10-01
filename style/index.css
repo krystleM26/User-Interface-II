@@ -68,9 +68,11 @@ nav .name{
     display: flex;
     flex-direction: row;
     font-size: 75px;
-    margin: 7%;
+   
+}
+a {
+    border: 2px solid gray;
     
-
 }
 
 
@@ -80,6 +82,13 @@ nav .name{
     margin-bottom: 5%;
     padding: .5%; 
     margin-left: 11%;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 22px;
+    align-items: center;
+    font-size: 1.5rem;
+    
+   
    
     
 }
@@ -90,14 +99,14 @@ nav .name{
 .info {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin: 5% 5%;
     
 }
 
-img {
-   margin: 5%;
-}
+
 .right {
-margin: 5%;   
+padding: 5%;
 }
 
 
@@ -107,8 +116,8 @@ margin: 5%;
 
 .boxes  {
     display: flex;
-    flex-direction: wrap;
-    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .box {
